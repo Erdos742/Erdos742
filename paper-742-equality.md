@@ -23,8 +23,6 @@ inherits from Part I is, at origin, **[CH79] p. 224's "extremal triple"**
 construction (1979) — not [DFH19, Definition 5] (2019), which restates it
 decades later. Citations below follow this provenance.
 
-**Acknowledgments:** [to be filled before posting]
-
 ---
 
 ## Abstract
@@ -934,3 +932,16 @@ identities and case exhaustions, each verified by direct argument. Every
 computational census the underlying research campaign ran (tight-graph
 counts, near-extremal bands, and the like) touches only the campaign's
 *evidence* for this theorem's discovery and audit — never its mathematics.
+
+## References
+
+[CH79] L. Caccetta, R. Häggkvist, *On diameter critical graphs*, Discrete
+Math. **28** (1979) 223–229.
+
+[DFH19] A. Dailly, F. Foucaud, A. Hansberg, *Strengthening the Murty–Simon
+conjecture on diameter 2 critical graphs*, Discrete Math. **342**(11) (2019)
+3142–3159, DOI 10.1016/j.disc.2019.06.023, arXiv:1812.08420.
+
+[Part I] *Every diameter-2-critical graph on `n` vertices has at most
+`⌊n²/4⌋` edges*, this repository (`paper-742-inequality.md`; Lean-verified
+as `Erdos742.lean`).
